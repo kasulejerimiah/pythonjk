@@ -1,5 +1,6 @@
 #http://127.0.0.1:8000/docs
 #uvicorn item-get:app --reload
+method=GET path="https://github.com/kasulejerimiah/pythonjk/edit/main/item-get.py" host=python2jk.herokuapp.com
 from fastapi import FastAPI, Path
 
 #Path is added so you can put a description of sort
